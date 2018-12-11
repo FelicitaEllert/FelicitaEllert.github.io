@@ -1,0 +1,45 @@
+body 
+{
+	// background-size: cover;
+	// background-image: url("christ.png");
+}
+#vardaspavarde
+{
+	font-size: 15px;
+	text-align: left;
+}
+.antraste
+{
+	font-size: 70px;
+}
+.pirmas
+{
+	border: 1px solid black;
+    border-collapse: collapse;
+    vertical-align:middle;
+    text-align: center;
+    width: 240px;
+    height: 60px;
+    font-size: 20px;
+}
+.tekstas
+{
+	font-size:20px;
+	width:50%;
+	text-align: justify;
+}
+a:link 
+{
+    color: black;  
+    text-decoration: none;
+}
+a:hover 
+{
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited
+{
+	color: black;
+}
