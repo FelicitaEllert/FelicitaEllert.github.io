@@ -1,0 +1,137 @@
+body
+{
+  background-color: #e0ebeb;
+}
+.div
+{
+  float: left;
+  padding: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 40px;
+  background-color: #c1d7d7;
+  width: 250px;
+  border: 25px solid #e0ebeb;
+  border-style: collapse;
+}
+.div1
+{
+	float: left;
+	padding: 5px;
+	font-family: "Comic sans MS", cursive, sans-serif;
+	font-size: 23px;
+}
+.div2
+{ 
+  float: right;
+}
+.div3
+{
+  float: right;
+  padding-bottom: 50px;
+  padding-right:100px;
+  background-color: #c1d7d7;
+  width: 750px;
+  height: 190px;
+  border: 25px solid #e0ebeb;
+  border-style: collapse;
+}
+.div4
+{
+  float:left;
+  padding: 25px;
+  width:50px;
+  height: 180px;
+}
+.div5
+{
+  float: right;
+  font-family: "Comic sans MS", cursive, sans-serif;
+  font-size: 23px;
+  text-align: left;
+  width: 470px;
+}
+.header {
+  overflow: hidden;
+  background-color: #c1d7d7;
+  padding: 10px 10px;
+}
+a:hover 
+{
+  background-color: #b1cdcd;
+  color: black;
+}
+.a1
+{
+  text-decoration: none;
+  color: black;
+}
+.headeris
+{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: "Comic sans MS", cursive, sans-serif;
+}
+.aprasymas
+{
+  text-align: center;
+  font-family: "Comic sans MS", cursive, sans-serif;
+  font-size: 20px;
+}
+.aprasymas1
+{
+  text-align: center;
+  font-family: "Comic sans MS", cursive, sans-serif;
+  font-size: 18px;
+}
+.goose
+{
+    height:200px;
+    padding:20px;
+    align-items: center;
+    animation-duration:7s;
+    animation-iteration-count: infinite;
+    animation-name: goose;
+    transform: rotate(0deg);
+    float:left;
+}
+@keyframes goose {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+.goose1
+{
+	height:300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nuotrauka
+{
+  height: 180px;
+  padding: 10px;
+
+}
+.pastraipa
+{
+  font-family: "Comic sans MS", cursive, sans-serif;
+  font-size:24px;
+  text-align: center;
+  padding-top: 70px;
+  padding:40px;
+}
+.data
+{
+  font-size: 17px;
+}
+.tekstas
+{
+  font-size: 17px;
+  padding-bottom: 15px;
+}
