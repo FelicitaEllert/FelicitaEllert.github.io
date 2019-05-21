@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="mystyle5.css">
+	</head>
+	<body>
+	<div id="grad">
+
+		<h1 class="header">Paspręskime kartu!</h1>
+		<button class="startas startas1" type="button" onclick=funkcija()> Spausk čia :) </button>
+	<table align="center" class="klasika">
+		<tr id="t1">
+			<td> <p id="p1"> 17 + 8 = </p> </td>
+			<td> <input id="a1" class="laukelis"> </td>
+			<td> <button class="startas" id="b1" onclick=pasitikrink1()> Pasitikrink! </button> </td>
+			<td id="td1"> <p>  </p> </td>
+		</tr>
+		<tr id="t2">
+			<td> <p id="p2"> 11 + 5 = </p> </td>
+			<td> <input id="a2" class="laukelis"> </td>
+			<td> <button class="startas" id="b2" onclick=pasitikrink2()> Pasitikrink! </button> </td>
+			<td id="td2"> <p>  </p> </td>
+		</tr>
+
+		<tr id="t3">
+			<td> <p id="p3"> 23 + 4 = </p> </td>
+			<td> <input id="a3" class="laukelis"> </td>
+			<td> <button class="startas" id="b3" onclick=pasitikrink3()> Pasitikrink! </button> </td>
+			<td id="td3"> <p>  </p> </td>
+		</tr>
+
+		<tr id="t4">
+			<td> <p id="p4"> 27 + 7 = </p> </td>
+			<td> <input id="a4" class="laukelis"> </td>
+			<td> <button class="startas" id="b4" onclick=pasitikrink4()> Pasitikrink! </button> </td>
+			<td id="td4"> <p>  </p> </td>
+		</tr>
+		<br>
+		<br>
+	</table>
+	<br>
+
+	<table align="center" class="klasika1">
+		<tr id="t5">
+			<td> <p> Jei viską teisingai išsprendei spausk </p> </td>
+			<td> <button class="startas" id="naujas" onclick=nuotrauka()> čia </button> </td>
+		</tr>
+	</table>	
+	<img id="dovana" src="gifts.png">
+</div>
+	<script>
+
+		function nuotrauka() 
+		{
+			if(document.getElementById("td1").innerHTML != ":)") return;
+			if(document.getElementById("td2").innerHTML != ":)") return;
+			if(document.getElementById("td3").innerHTML != ":)") return;
+			if(document.getElementById("td4").innerHTML != ":)") return;
+
+			document.getElementById("dovana").style.visibility="visible";
+		}
+
+		document.getElementById("t1").style.visibility = "hidden";
+		document.getElementById("t2").style.visibility = "hidden";
+		document.getElementById("t3").style.visibility = "hidden";
+		document.getElementById("t4").style.visibility = "hidden";
+		document.getElementById("t5").style.visibility = "hidden";
+		document.getElementById("dovana").style.visibility="hidden";
+		function funkcija()
+		{
+			document.getElementById("t1").style.visibility = "visible";
+			document.getElementById("t2").style.visibility = "visible";
+			document.getElementById("t3").style.visibility = "visible";
+			document.getElementById("t4").style.visibility = "visible";
+			document.getElementById("t5").style.visibility = "visible";
+		}
+		function pasitikrink1()
+		{
+			if(document.getElementById("a1").value=="25")
+			document.getElementById("td1").innerHTML = ":)";
+			else document.getElementById("td1").innerHTML= ":(";	
+		}
+		function pasitikrink2()
+		{
+			if(document.getElementById("a2").value=="16")
+			document.getElementById("td2").innerHTML = ":)";
+			else document.getElementById("td2").innerHTML= ":(";	
+		}
+		function pasitikrink3()
+		{
+			if(document.getElementById("a3").value=="27")
+			document.getElementById("td3").innerHTML = ":)";
+			else document.getElementById("td3").innerHTML= ":(";	
+		}
+		function pasitikrink4()
+		{
+			if(document.getElementById("a4").value=="34")
+			document.getElementById("td4").innerHTML = ":)";
+			else document.getElementById("td4").innerHTML= ":(";	
+		}
+	</script>
+
+	</body>
+</html>

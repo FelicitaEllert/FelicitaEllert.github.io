@@ -1,0 +1,73 @@
+#grad 
+{
+  background-image: linear-gradient(to bottom right, #b3b3ff, #ffb3ff);
+  height: 100%;
+}
+#dovana 
+{
+	height: 170px;
+}
+body 
+{
+	margin:0;
+	text-align: center;
+}
+.header 
+{
+	 font-family: "Comic sans MS", cursive, sans-serif;
+	 font-size: 35px; 
+  line-height: 55px;
+  text-align: center;
+  border-radius: 10px;
+  }
+.klasika
+{
+	font-family: "Comic sans MS", cursive, sans-serif;
+	font-size: 22px;
+}
+.klasika1
+{
+	font-family: "Comic sans MS", cursive, sans-serif;
+	font-size: 22px;
+}
+.startas
+{
+  font-family: "Comic sans MS", cursive, sans-serif;
+  display: center;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  padding: 3px;
+  border-radius:10px;
+  border: none;
+
+}
+.startas2
+{
+	padding: 4px;
+	border-radius:10px;
+}
+.laukelis
+{
+	padding:3px;
+	font-family: "Comic sans MS", cursive, sans-serif;
+	font-size:15px;
+	border-radius:10px;
+	border: none;
+}
+.startas1 {
+  background-color: white; 
+  color: black; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding: 5px;
+  border-radius:10px;
+  font-size: 15px;
+  border-color: transparent;
+  background-color: white;
+}
+.startas1:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+  border-color: transparent;
+  color: black;
+}
