@@ -1,0 +1,79 @@
+body 
+{
+	margin:0;
+	text-align: center;
+	background-color: #ffb3d9;
+}
+.table
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline;
+	float:left;
+}
+img
+{
+	height: 225px;
+	width: 225px;
+}
+.table1
+{
+	border-left: 1px solid #ffb3d9;
+	border-right: 1px solid #ffb3d9;
+	border-bottom: 1px solid #ffb3d9;
+	border-top: 1px solid #ffb3d9;;
+}
+.antraste
+{
+	font-family: "Comic sans MS", cursive, sans-serif;
+	font-size: 65px;
+	text-align: center;
+	color: white; 
+}
+.tekstas
+{
+	float: right;
+	position:absolute;
+}
+.div1
+{
+	float: left;
+}
+.div2
+{
+	float: right;
+}
+
+.tekstas
+{
+	font-family: "Comic sans MS", cursive, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	display: contents;
+}
+.startas1 {
+  background-color: white; 
+  color: black; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding: 5px;
+  border-radius:10px;
+  font-size: 15px;
+  border-color: transparent;
+  background-color: white;
+}
+.startas1:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+  border-color: transparent;
+  color: black;
+}
+.laukelis
+{
+	padding:3px;
+	font-family: "Comic sans MS", cursive, sans-serif;
+	font-size:15px;
+	border-radius:10px;
+	border: none;
+}
