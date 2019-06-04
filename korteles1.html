@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="myStyle.css"> </head>
+	<body>
+		<script src="script1.js"> </script>
+		<h1 class="antraste"> Šunų veislės </h1>
+			<table class="table"> 
+				<tr> 
+					<th class="table1"> <img id="p1" onclick=apsiversk1() src="back.png"> </th>
+					<th class="table1"> <img id="p2" onclick=apsiversk2() src="back.png"> </th>
+					<th class="table1"> <img id="p3" onclick=apsiversk3() src="back.png"> </th>
+				</tr>
+				<tr>
+					<th> <img id="p4" onclick=apsiversk4() src="back.png"> </th>
+					<th> <img id="p5" onclick=apsiversk5() src="back.png"> </th>
+					<th> <img id="p6" onclick=apsiversk6() src="back.png"> </th>
+				</tr>
+				<tr>
+					<th> <img id="p7" onclick=apsiversk7() src="back.png"> </th>
+					<th> <img id="p8" onclick=apsiversk8() src="back.png"> </th>
+					<th> <img id="p9" onclick=apsiversk9() src="back.png"> </th>
+				</tr>
+			</table>			
+		<span class="tekstas"> Šis interaktyvus žaidimas padės susipažinti su žinomiausiom šunų veislėm. Atvertus dvi vienodas korteles, jos dingsta, o suklydus - užsiverčia. Viena kortelė be poros, šio šuns angliško pavadinimo numerį (1 - labrador, 2 - chihuahua, 3 - duck) įrašykite į langelį kuris atsiras paspaudus 
+		<button class="startas startas1" type="button" onclick=funkcija()> čia. </button> <input id="a1" class="laukelis"> <button class="startas startas1" id="a2" onclick=pasitikrink1()> Pasitikrink! </button></span> 
+		<script>
+			document.getElementById("a1").style.visibility = "hidden";
+			document.getElementById("a2").style.visibility = "hidden";
+function funkcija()
+{
+	document.getElementById("a1").style.visibility = "visible";
+	document.getElementById("a2").style.visibility = "visible";
+
+}
+function pasitikrink1()
+		{
+			if(document.getElementById("a1").value=="1")
+			alert ("Pasisekė!")	
+			else if(document.getElementById("a1").value!="1")
+			alert ("Nepasisekė :(")
+		}
+		</script>
+	</body>
+</html>
